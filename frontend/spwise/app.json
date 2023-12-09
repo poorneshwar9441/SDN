@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "spwise",
+    "slug": "spwise",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.poornesh944.spwise"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.poornesh944.spwise"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme":["spwise","fb2123016781384670"],
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "07d63e71-ddfb-4e1c-b436-8c5180b7787c"
+      }
+    }
+  }
+}

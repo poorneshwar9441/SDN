@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">spwise</string>
+  <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
+  <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
+  <string name="facebook_app_id">2123016781384670</string>
+</resources>
