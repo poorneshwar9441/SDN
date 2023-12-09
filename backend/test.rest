@@ -1,0 +1,13 @@
+
+
+
+POST http://127.0.0.1:8000/user-profiles/
+Content-Type: application/json
+{
+  "user": {
+    "username": "john_doe",
+    "password": "password123",
+    "email": "john@example.com"
+  }
+  // Add other user profile fields as needed
+}
